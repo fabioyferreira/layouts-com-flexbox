@@ -1,0 +1,87 @@
+body{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+.flex-container{
+    display: flex;
+   
+    text-align: center;
+
+}
+
+.article{
+    display: flex;
+    background-color: blue;
+     
+
+flex-wrap: wrap; /* quebrar as divs para caber visualmente no pai*flex-wrap: wrap;*/
+
+align-items: center;
+width:100%;
+height: 80vh;
+
+ flex-direction: row;
+ justify-content: center;
+ align-content: space-around;
+
+
+
+ 
+}
+.reader{
+ display: flex;
+    background-color: gray;
+    width: auto;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+   }
+
+.fooster{
+    display: flex;
+    align-items: center;
+    width:  auto;
+   height: 20vh;
+    background-color: blueviolet;
+       flex-direction: column;
+
+}
+.aside{
+ flex: auto;
+    background-color: green;
+    
+    text-align: center;
+    width:60vh;
+    height: 100vh;
+ 
+}
+.nav{
+     flex: auto;
+    background-color: brown;
+    width:60vh;
+      height: 100vh;
+ 
+    text-align: center;
+    
+}
+ article > div{
+    display: flex;
+            font-size: 2em;
+            padding: 1%;
+            background-color: #f4ff81;
+            width: 50px;
+            height:  50x;
+            margin: 1%;
+            
+            }
+           
+         
+.box{
+display: flex;   
+flex-direction: column;
+    width: 50%;
+}
+
+
